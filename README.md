@@ -4,7 +4,7 @@ The origin is https://github.com/xinntao/Real-ESRGAN
 
 This is Browser-App makeing from Real-ESRGAN.
 Using tools are FastAPI, Poetry of Python to backend-side,
-and Vue,js, Vite, Typescript, TailwindCSS of Javascript to frontend-side.
+and Vue.js, Vite, Typescript, TailwindCSS of Javascript to frontend-side.
 
 # Usage
 
@@ -21,9 +21,16 @@ cd penta_real_esrgan
 poetry install
 ```
 
+### Initialize (Only once)
+
+```
+poetry shell
+python setup.py develop
+```
+
 ## Install Vue.js3 of Frontend (using Vite, Typescript, TailwindCSS)
 
-This is used only development environment. Able to play Super-Resolution without installing.
+This is used only development environment. Without installing, able to play Super-Resolution. Root-directory is penta_real_esrgan (Not "penta_real_esrgan/penta_real_esrgan")
 
 ```
 cd front
