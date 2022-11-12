@@ -3,8 +3,8 @@
 The origin is https://github.com/xinntao/Real-ESRGAN
 
 This is Bbrowser-App makeing from Real-ESRGAN.
-Using tools is FastAPI, Poetry of Python,
-and Vue,js, Vite, Typescript, TailwindCSS of Javascript.
+Using tools is FastAPI, Poetry of Python to backend-side,
+and Vue,js, Vite, Typescript, TailwindCSS of Javascript to frontend-side.
 
 # Usage
 
