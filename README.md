@@ -23,6 +23,8 @@ poetry install
 
 ### Initialize (Only once)
 
+This root-directory is penta_real_esrgan (Not "penta_real_esrgan/penta_real_esrgan").
+
 ```
 poetry shell
 python setup.py develop
