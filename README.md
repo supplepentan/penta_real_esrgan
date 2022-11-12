@@ -3,7 +3,7 @@
 The origin is https://github.com/xinntao/Real-ESRGAN
 
 This is Browser-App makeing from Real-ESRGAN.
-Using tools is FastAPI, Poetry of Python to backend-side,
+Using tools are FastAPI, Poetry of Python to backend-side,
 and Vue,js, Vite, Typescript, TailwindCSS of Javascript to frontend-side.
 
 # Usage
