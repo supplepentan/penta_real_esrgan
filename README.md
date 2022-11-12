@@ -23,7 +23,7 @@ poetry install
 
 ### Initialize (Only once)
 
-This root-directory is penta_real_esrgan (Not "penta_real_esrgan/penta_real_esrgan").
+This directory is "penta_real_esrgan/penta_real_esrgan" (Not "penta_real_esrgan" of root).
 
 ```
 poetry shell
