@@ -1,0 +1,175 @@
+.venv
+refer.txt
+
+# front
+## Logs
+logs
+*.log
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+front/pnpm-debug.log*
+front/lerna-debug.log*
+
+front/node_modules
+front/dist
+front/dist-ssr
+front/*.local
+
+## Editor directories and files
+front/.vscode/*
+front/!.vscode/extensions.json
+front/.idea
+front/.DS_Store
+front/*.suo
+front/*.ntvs*
+front/*.njsproj
+front/*.sln
+front/*.sw?
+
+
+# penta_real_esrgan
+penta_real_esrgan/input
+penta_real_esrgan/output
+penta_real_esrgan/upload
+
+## ignored folders
+penta_real_esrgan/datasets/*
+penta_real_esrgan/experiments/*
+penta_real_esrgan/results/*
+penta_real_esrgan/tb_logger/*
+penta_real_esrgan/wandb/*
+penta_real_esrgan/tmp/*
+penta_real_esrgan/weights/*
+
+penta_real_esrgan/version.py
+
+## Byte-compiled / optimized / DLL files
+penta_real_esrgan/__pycache__/
+penta_real_esrgan/*.py[cod]
+penta_real_esrgan/*$py.class
+
+## C extensions
+penta_real_esrgan/*.so
+
+## Distribution / packaging
+penta_real_esrgan/.Python
+penta_real_esrgan/build/
+penta_real_esrgan/develop-eggs/
+penta_real_esrgan/dist/
+penta_real_esrgan/downloads/
+penta_real_esrgan/eggs/
+penta_real_esrgan/.eggs/
+penta_real_esrgan/lib/
+penta_real_esrgan/lib64/
+penta_real_esrgan/parts/
+penta_real_esrgan/sdist/
+penta_real_esrgan/var/
+penta_real_esrgan/wheels/
+penta_real_esrgan/pip-wheel-metadata/
+penta_real_esrgan/share/python-wheels/
+penta_real_esrgan/*.egg-info/
+penta_real_esrgan/.installed.cfg
+penta_real_esrgan/*.egg
+penta_real_esrgan/MANIFEST
+
+## PyInstaller
+##  Usually these files are written by a python script from a template
+##  before PyInstaller builds the exe, so as to inject date/other infos into it.
+penta_real_esrgan/*.manifest
+penta_real_esrgan/*.spec
+
+## Installer logs
+penta_real_esrgan/pip-log.txt
+penta_real_esrgan/pip-delete-this-directory.txt
+
+## Unit test / coverage reports
+penta_real_esrgan/htmlcov/
+penta_real_esrgan/.tox/
+penta_real_esrgan/.nox/
+penta_real_esrgan/.coverage
+penta_real_esrgan/.coverage.*
+penta_real_esrgan/.cache
+penta_real_esrgan/nosetests.xml
+penta_real_esrgan/coverage.xml
+penta_real_esrgan/*.cover
+penta_real_esrgan/*.py,cover
+penta_real_esrgan/.hypothesis/
+penta_real_esrgan/.pytest_cache/
+
+## Translations
+penta_real_esrgan/*.mo
+penta_real_esrgan/*.pot
+
+## Django stuff:
+penta_real_esrgan/*.log
+penta_real_esrgan/local_settings.py
+penta_real_esrgan/db.sqlite3
+penta_real_esrgan/db.sqlite3-journal
+
+## Flask stuff:
+penta_real_esrgan/instance/
+penta_real_esrgan/.webassets-cache
+
+## Scrapy stuff:
+penta_real_esrgan/.scrapy
+
+## Sphinx documentation
+penta_real_esrgan/docs/_build/
+
+## PyBuilder
+penta_real_esrgan/target/
+
+## Jupyter Notebook
+penta_real_esrgan/.ipynb_checkpoints
+
+## IPython
+penta_real_esrgan/profile_default/
+penta_real_esrgan/ipython_config.py
+
+## pyenv
+penta_real_esrgan/.python-version
+
+## pipenv
+##   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+##   However, in case of collaboration, if having platform-specific dependencies or dependencies
+##   having no cross-platform support, pipenv may install dependencies that don't work, or not
+##   install all needed dependencies.
+## Pipfile.lock
+
+## PEP 582; used by e.g. github.com/David-OConnor/pyflow
+penta_real_esrgan/__pypackages__/
+
+## Celery stuff
+penta_real_esrgan/celerybeat-schedule
+penta_real_esrgan/celerybeat.pid
+
+## SageMath parsed files
+penta_real_esrgan/*.sage.py
+
+## Environments
+penta_real_esrgan/.env
+penta_real_esrgan/.venv
+penta_real_esrgan/env/
+penta_real_esrgan/venv/
+penta_real_esrgan/ENV/
+penta_real_esrgan/env.bak/
+penta_real_esrgan/venv.bak/
+
+## Spyder project settings
+penta_real_esrgan/.spyderproject
+penta_real_esrgan/.spyproject
+
+## Rope project settings
+penta_real_esrgan/.ropeproject
+
+## mkdocs documentation
+penta_real_esrgan/site
+
+## mypy
+penta_real_esrgan/.mypy_cache/
+penta_real_esrgan/.dmypy.json
+penta_real_esrgan/dmypy.json
+
+## Pyre type checker
+penta_real_esrgan/.pyre/
