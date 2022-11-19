@@ -6,7 +6,7 @@ This is Browser-App maked from Real-ESRGAN.
 Using tools are FastAPI, Poetry of Python to backend-side,
 and Vue.js, Vite, Typescript, TailwindCSS of Javascript to frontend-side.
 This pytorch-environment is cuda-11.7,
-please, modifide your condition.
+please, modifide "pyproject.toml" at your condition.
 
 # Usage
 
