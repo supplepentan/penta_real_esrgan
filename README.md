@@ -5,6 +5,8 @@ The origin is https://github.com/xinntao/Real-ESRGAN
 This is Browser-App maked from Real-ESRGAN.
 Using tools are FastAPI, Poetry of Python to backend-side,
 and Vue.js, Vite, Typescript, TailwindCSS of Javascript to frontend-side.
+This pytorch-environment is cuda-11.7,
+please, modifide your condition.
 
 # Usage
 
@@ -38,3 +40,15 @@ This is used only development environment. Without installing, able to play Supe
 cd front
 npm install
 ```
+
+## Playing
+
+### Start local server
+
+```
+poetry shell
+cd penta_real_esrgan
+uvicorn main:app --reload
+```
+
+Access to 127.0.0.1 of local server.
